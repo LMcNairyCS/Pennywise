@@ -1,0 +1,21 @@
+ Development Log – Pennywise
+
+This log documents the day-to-day progress of building the Pennywise personal budget tracker. Entries include planning decisions, technical setups, design adjustments, and coding milestones.
+
+---
+
+ July 14, 2025 – Day 1
+
+Tasks Completed:
+- Finalized project name: Pennywise
+- Defined app concept and main feature set
+- Outlined initial visual layout for the Home screen
+- Chose core technologies (React, Tailwind, Chart.js)
+- Created project icon and app branding direction
+- Set up GitHub repository and began documentation
+- Created initial README with concept, stack, features, and status
+
+Next Steps:
+- Finalize prerequisite installations (Node, Vite, Tailwind)
+- Scaffold folder structure for React project
+- Begin building the Home screen layout
