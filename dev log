@@ -2,20 +2,31 @@
 
 This log documents the day-to-day progress of building the Pennywise personal budget tracker. Entries include planning decisions, technical setups, design adjustments, and coding milestones.
 
----
+July 14, 2025 – Day 1
 
- July 14, 2025 – Day 1
+Initial setup and planning completed.
 
-Tasks Completed:
 - Finalized project name: Pennywise
-- Defined app concept and main feature set
-- Outlined initial visual layout for the Home screen
-- Chose core technologies (React, Tailwind, Chart.js)
-- Created project icon and app branding direction
-- Set up GitHub repository and began documentation
-- Created initial README with concept, stack, features, and status
+- Defined app concept and direction
+- Wrote README sections: Concept, Tech Stack, Features, Project Status
+- Installed Node.js (LTS version)
+
+Issue: PowerShell Script Execution Blocked
+When attempting to run `npm create vite@latest`, an error occurred:
+> npm.ps1 cannot be loaded because running scripts is disabled on this system.
+
+**Resolution:**
+- Opened PowerShell as Administrator
+- Ran the command: `Set-ExecutionPolicy RemoteSigned`
+- Selected "Yes" when prompted
+- Restarted PowerShell and confirmed script execution worked
+- Proceeded with Vite scaffolding successfully
+
+- Scaffolded new React project using Vite and JavaScript template
+- Initialized local development environment
+- Confirmed Vite dev server runs correctly at `localhost:5173`
 
 Next Steps:
-- Finalize prerequisite installations (Node, Vite, Tailwind)
-- Scaffold folder structure for React project
-- Begin building the Home screen layout
+- Install and configure Tailwind CSS
+- Set up file/folder structure for layout components
+- Begin designing the Home screen UI with mobile-first styling for Android
